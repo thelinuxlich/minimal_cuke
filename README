@@ -1,5 +1,10 @@
+This is a minimal stack to test external applications using Cucumber, Capybara and MiniTest, compatible with ruby 1.8.7 and 1.9.2. It has some example steps on features/step_definitions/web_steps.rb in English and Portuguese to get you started.
+
+
 Instructions
 
-1 - bundle install
-2 - cucumber
-3 - have fun!
+1 - Clone the project
+2 - Go to the project root
+3 - Run 'bundle install'
+4 - Run 'cucumber'   
+5 - Have fun! :)
