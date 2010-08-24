@@ -5,6 +5,7 @@ Instructions
 
 1 - Clone the project
 2 - Go to the project root
-3 - Run 'bundle install'
-4 - Run 'cucumber'   
-5 - Have fun! :)
+3 - Make sure you have bundler gem installed or run "gem install bundler"
+4 - Run 'bundle install'
+5 - Run 'cucumber'   
+6 - Have fun! :)
