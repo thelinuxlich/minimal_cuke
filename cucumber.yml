@@ -1,0 +1,2 @@
+cucumber: --color --format pretty features
+autotest: --color --format pretty --format html --out=cucumber_report.html features
