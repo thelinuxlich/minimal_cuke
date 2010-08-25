@@ -1,5 +1,22 @@
-Autotest.add_hook :initialize do |at|
-  # Ignore files in tmp/
-  at.add_exception %r%^\./tmp%
-  at.add_exception /html$/
+#require 'mail'
+
+module Autotest::MinimalCuke
+  Autotest.add_hook :initialize do |at|
+    at.add_exception %r%^\./tmp%
+    at.add_exception(/html$/)
+  end
+
+  #Uncomment the hook below to enable mail notifications after every test suite execution
+
+  #Autotest.add_hook :waiting do |at|
+  #     mail = Mail.new do
+  #     from "sender@foo.br"
+  #     to "receiver@foo.br"
+  #     subject "[Test suite] Test suite executed!"
+  #     body at.results.split("\n").last
+  #   end
+  #   mail.delivery_method :sendmail 
+  #   mail.deliver
+  #end
 end
+

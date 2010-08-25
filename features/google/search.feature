@@ -9,4 +9,4 @@ Funcionalidade: Pesquisar no Google
     Dado que eu estou na página inicial
     E eu preencher o "q" com "rails"
     Quando eu pressionar "Pesquisa Google"
-    Então devo ver "rubyonrails.org"
+    Então devo ver "rubyonrails"
