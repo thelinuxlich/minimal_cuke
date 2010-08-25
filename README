@@ -9,3 +9,5 @@ Instructions
 4 - Run 'bundle install'
 5 - Run 'AUTOFEATURE=true autotest'   
 6 - Have fun! :)
+
+Optionally, you can uncomment a mail notification hook in .autotest file and customize the output.
